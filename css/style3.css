@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{outline:2px solid orange;} */
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+}
+
+.sidebar {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #EAF0ED;
+}
+
+.menu li{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.menu a {
+    display: block;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #3F5C46;
+    font-size: 24px;
+}
+
+.menu a:hover{
+    color: #F7F7F7;
+    background-color: #3F5C46;
+}
+
+.content {
+    width: 900px;
+    padding: 50px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3F5C46;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    color: #A2A2A2;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+
+.productPic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productPic img {
+    width: 250px;
+}
